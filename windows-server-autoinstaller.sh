@@ -14,6 +14,7 @@ apt-get update && apt-get upgrade -y
 
 # Install QEMU and its utilities
 apt-get install qemu -y
+apt install qemu-system -y
 apt install qemu-utils -y
 apt install qemu-system-x86-xen -y
 apt install qemu-system-x86 -y
